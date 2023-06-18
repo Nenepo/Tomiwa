@@ -1,4 +1,4 @@
-h5{
+/* h5{
   font-family: 'Libre Baskerville', serif;
 font-family: 'Noto Serif Georgian', serif;
 font-family: 'Roboto Condensed', sans-serif;
@@ -7,4 +7,167 @@ h6{
   font-family: 'Libre Baskerville', serif;
 font-family: 'Noto Serif Georgian', serif;
 font-family: 'Roboto Condensed', sans-serif;
+} */
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
 }
+body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+h5{
+  font: bold 20px 'Libre Baskerville', serif;
+}
+h6{
+  font:  16px 'Roboto Condensed', sans-serif;
+}
+hr{
+  border: 2px solid rgb(113, 158, 107);
+  border-radius: 25px;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Header style begins  */
+.header{
+  text-align: center;
+  background-color: #fff ;
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+ 
+}
+.logo{
+ 
+  margin-right: 5px;
+}
+
+.site-header{
+  display: flex;
+  width: 30%;
+}
+.tag-line{
+ 
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.hyphen{
+ font-size:25px;
+}
+/* Hamburger styles Begins*/
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 4px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger.open span:nth-child(2) {
+  transform: scaleX(0);
+}
+
+.hamburger.open span:nth-child(1),
+.hamburger.open span:nth-child(3) {
+  transform: rotate(45deg);
+}
+/* Hamburger styles ends*/
+/*{} 
+ */
+/* navbar style begins*/
+.nav ol {
+  display: inline-flex;
+  justify-content: end;
+  margin-left: 300px;
+  width: 70%;
+  margin-top: -25px;
+ 
+  }
+  .list-item a{
+   text-decoration: none;
+   color: #5e5c5c;
+   font: bold 15px 'roboto, sans-serif';
+   cursor: pointer;
+  }
+ ol {
+    list-style: none;
+   
+  }
+  .list-item{
+     display: flex;
+     list-style: none;
+     margin: auto 20px;
+     
+    
+  }
+  
+/*navbar style ends*/
+
+/* Header Style Ends */
+/* main begins */
+  .container{
+     display: flex;
+     width: 100%;
+     height: 100vh;
+   
+  }
+  .container1{
+   width: 40%;
+   background-color: #8eca95;
+  }
+  .container2{
+   width: 60%;
+   background-color: #fff;
+  }
+  .box{
+   
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: -450px;
+    margin-left: 150px;
+    padding: 50px;
+    
+  
+ }
+  .box1{
+   background-color: #a1d1a7;
+   width: 30%;
+   padding: 20px;
+  
+  }
+  .img1{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .name{
+    margin-left:auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 30px;
+   text-align: center;
+  }
+ .job-title{
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 5px;
+ }
+/* main ends*/
