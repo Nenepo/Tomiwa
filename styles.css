@@ -148,7 +148,7 @@ nav{
 
 /* Header Style Ends */
 /* main begins */
-  .container{
+  .container-aboutme{
      display: flex;
      width: 100%;
      height: 130%;
@@ -300,3 +300,8 @@ footer{
   margin-top: 300px;
 }
 /* Footer ends*/
+
+/* Resume page */
+.container-resume{
+  background-color: #41644A;
+}
