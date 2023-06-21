@@ -36,7 +36,8 @@ h6{
   font:  1rem 'Roboto Condensed', sans-serif;
 }
 hr{
-  border: 2px solid rgb(113, 158, 107);
+  /* border: 2px solid rgb(113, 158, 107); */
+  border: 2px solid #41644A;
   border-radius: 25px;
   width: 10%;
   margin-left: auto;
@@ -74,7 +75,7 @@ hr{
 .tag-line{
  
   margin-left: 0.3rem;
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
 }
 .hyphen{
  font-size: 1.6rem;
@@ -111,12 +112,14 @@ hr{
 /* Hamburger styles ends*/
 
 /* navbar style begins*/
+nav{
+  margin-top: 100px;
+}
 .nav ol {
   display: inline-flex;
   justify-content: end;
   margin-left: 18.8rem;
   width: 70%;
-  margin-top: -1.6rem;
  
   }
   .list-item a{
@@ -148,12 +151,13 @@ hr{
   .container{
      display: flex;
      width: 100%;
-     height: 100%;
+     height: 130%;
   }
   .container1{
    width: 40%;
    height: 130%;
-   background-color:#263829;
+   /* background-color:#263829ea; */
+   background-color: #41644A;
   }
   .container2{
    width: 60%;
@@ -163,14 +167,15 @@ hr{
    display: flex;
     width: 100%;
     position: relative;
-    bottom: 550;
+    bottom: 600;
     margin-left: 9.4rem;
     padding: 3.1rem;
     
   
  }
   .box1{
-   background-color: #41644A;
+   /* background-color: #41644A; */
+   background-color: rgb(113, 158, 107);
    width: 30%;
   }
   .img1{
@@ -194,7 +199,6 @@ hr{
  }
  .socials{
   background-color: #fff;
-
  }
 
  .socials ol{
@@ -239,7 +243,6 @@ hr{
 /* main ends*/
 /* FOoter begins */
 footer{
- 
   display: flex;
   padding: 2rem;
   background-color: white;
@@ -248,31 +251,32 @@ footer{
 
 .footer-end{
   display: inline-flex;
-  margin-left: 30.8rem;
+  margin-left: 27rem;
   padding: 0 1.3rem;
- 
 }
 .footer-end p{
   font-weight: 500;
   font-size: larger;
+  font-weight: bold;
   padding-bottom: 10px;
- 
 }
 .footer-end a{
   font-size: 1.3rem; 
-  
 }
 .call{
  margin: 0 50px;
  text-align: center;
 }
-.call p{margin-bottom: 5px;}
+.call p{
+  margin-bottom: 5px;
+}
 .write {
   margin: 0 50px;
   text-align: center;
- 
 }
-.write p{margin-bottom: 5px;}
+.write p{
+  margin-bottom: 5px;
+}
 .follow {
   margin: 0 50px;
 }
@@ -286,7 +290,6 @@ footer{
 .follow a{
  margin: 0 10px;
  color: black;
-  
 }
 .copyright{
   margin-top: 5px;
@@ -294,6 +297,6 @@ footer{
 }
 .footer-frame{
   width: 100%;
-  margin-top: 100px;
+  margin-top: 300px;
 }
 /* Footer ends*/
