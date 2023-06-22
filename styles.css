@@ -26,6 +26,9 @@ a{
 h1{
   font: bold 6.25rem 'Roboto', sans-serif;
 }
+h2{
+  font: bolder 3rem 'Roboto', serif;
+}
 h3{
   font: lighter 1.8rem 'Roboto', sans-serif;
 }
@@ -124,7 +127,7 @@ nav{
   }
   .list-item a{
    text-decoration: none;
-   color: #5e5c5c;
+   color: #333232;
    font: bold 0.9rem 'roboto', sans-serif;
    cursor: pointer;
   }
@@ -132,6 +135,7 @@ nav{
     color: rgb(113, 158, 107);
     
    }
+ 
  ol {
     list-style: none;
    
@@ -224,20 +228,22 @@ nav{
   border-radius: 25px;
   padding: 0.3rem 0.6rem;
  }
- .buttons a:hover{
+ button a:hover{
   color: #fff;
   background-color: rgb(113, 158, 107);
  }
+ 
  .btn1{
   margin-right: 3rem;
  }
- .box2 p{
-  font: 1rem/1.2 'poppins', sans-serif;
-  text-align: justify;
+.box2 p{
+  font: 0.9rem/1.2 'poppins', sans-serif;
+  text-align: left;
+  word-spacing: 2px;
   color: #000;
   letter-spacing: 1.5px;
  }
- section{
+ .section-about{
   height: 100%;
  }
 /* main ends*/
@@ -305,13 +311,77 @@ footer{
 
 /* Footer ends*/
 
-/* Resume page */
+/* Resume page begins*/
 .container-resume{
   background-color: #41644A;
   width: 100%;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-frame2{
   width: 100%;
  height: 20%;
 }
+.resume{
+  text-align: center;
+  margin-top: 8rem;
+}
+.experience{
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  
+}
+.cv{
+ margin-left: 30rem;
+} 
+a.cv{
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  font: bold 0.9rem 'Roboto', sans-serif;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 0.6rem 0.6rem;
+ }
+ a.cv:hover{
+  color: #fff;
+  background-color: rgb(113, 158, 107);
+ }
+ .resume-box{
+  margin-left: 19rem;
+  margin-right: 18rem;
+ 
+ }
+/* first resume box begins*/
+.resume-box1{
+  background-color: #fff;
+  display: flex;
+  padding: 3rem;
+  width: 100%;
+  box-shadow: #000;
+}
+.details{
+ width: 40%;
+}
+.details p{
+  font: 0.8rem/1.2 'poppins', sans-serif;
+  text-align: left;
+  color: #000;
+  letter-spacing: 1.5px;
+ }
+
+.description{
+ width: 60%;
+ text-align: justify;
+}
+.description p{
+  font: 0.8rem/1.2 'poppins', sans-serif;
+  text-align: left;
+  word-spacing: 2px;
+  color: #000;
+  letter-spacing: 1.5px;
+ }
+
+/* first resume box end*/
+ /* Resume page ends*/ 
