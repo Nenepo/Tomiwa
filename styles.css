@@ -384,4 +384,16 @@ a.cv{
  }
 
 /* first resume box end*/
+/* Second resume box begins */
+
+.resume-box2{
+  background-color: #fff;
+  display: flex;
+  margin-top: 50px;
+  padding: 3rem;
+  width: 100%;
+  box-shadow: 0  5px rgba(0, 0, 0, 0.5);
+  
+}
+/* second box ends */
  /* Resume page ends*/ 
