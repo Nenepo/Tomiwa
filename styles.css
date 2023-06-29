@@ -9,6 +9,11 @@ font-family: 'Noto Serif Georgian', serif;
 font-family: 'Roboto Condensed', sans-serif;
 } */
 
+  @import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Eczar&family=Rubik&display=swap');
+
 *{
 padding: 0;
 margin: 0;
@@ -23,6 +28,7 @@ body{
 a{
   cursor:pointer;
 }
+
 h1{
   font: bold 6.25rem 'Roboto', sans-serif;
 }
@@ -32,6 +38,7 @@ h2{
 h3{
   font: lighter 1.8rem 'Roboto', sans-serif;
 }
+
 h5{
   font: bold 1.6rem 'Libre Baskerville', serif;
 }
@@ -365,7 +372,9 @@ a.cv{
   width: 100%;
   box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
 }
-
+.resume-box1 h4{
+  color: #333232;
+}
 .details{
  width: 40%;
 }
@@ -381,7 +390,7 @@ a.cv{
  text-align: justify;
 }
 .description p{
-  font: 0.8rem/1.2 'poppins', sans-serif;
+  font: 0.8rem/1.2  'Eczar', serif;
   text-align: left;
   word-spacing: 2px;
   color: #000;
@@ -447,4 +456,6 @@ a.cv{
   box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
   
 }
+p{
+  font-family: 'Proza Libre', sans-serif;}
  /* Resume page ends*/ 
