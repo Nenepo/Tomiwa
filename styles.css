@@ -45,6 +45,14 @@ h5{
 h6{
   font:  1rem 'Roboto Condensed', sans-serif;
 }
+p {
+  font-family: 'Proza Libre', sans-serif;
+}
+li{
+  
+    font-family: 'Proza Libre', sans-serif;
+
+}
 hr{
   /* border: 2px solid rgb(113, 158, 107); */
   border: 2px solid #41644A;
@@ -332,12 +340,13 @@ footer{
 .resume{
   text-align: center;
   margin-top: 8rem;
+  color: #fff;
 }
 .experience{
   display: flex;
   padding: 2rem;
   justify-content: center;
-  
+  color: #fff;
 }
 .cv{
  margin-left: 30rem;
@@ -372,8 +381,8 @@ a.cv{
   width: 100%;
   box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
 }
-.resume-box1 h4{
-  color: #333232;
+.resume-box h4{
+  color: #918b8b;
 }
 .details{
  width: 40%;
@@ -459,3 +468,57 @@ a.cv{
 p{
   font-family: 'Proza Libre', sans-serif;}
  /* Resume page ends*/ 
+ /* education */
+ .education{
+  margin-top: 40px;
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  color: #fff;
+ }
+ .education-box{
+  margin-left: 19rem;
+  margin-right: 18rem;
+  display: flex;
+  padding: 2em;
+  background-color: #fff;
+  margin-top: 30px;
+
+
+  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
+ }
+ .education-details{
+ margin-left: 12rem;
+ 
+ }
+ /* education ends */
+
+ /* skillset */
+ .professional-skill h3{
+  margin-top: 40px;
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  color: #fff;
+ }
+.skills ul{
+  margin-left: 19rem;
+  margin-right: 18rem;
+  display: flex;
+  padding: 2em;
+  background-color: #fff;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
+}
+.skills li{
+  margin-left: 30px;
+ 
+ 
+}
+
+
+
+
+
+ /* skillset end*/
