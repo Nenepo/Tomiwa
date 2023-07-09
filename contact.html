@@ -48,6 +48,7 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Noto+Serif+Georgian:wght@800&family=Roboto+Condensed:wght@300;700&display=swap"
       rel="stylesheet"
     />
+    <script src="script.js"></script>
     <!-- Title Tag -->
     <title>
       Tomiwa Afolayan - Product Manager | Strategic Planning | User Experience
@@ -62,45 +63,52 @@
       scrolling="no"
       seamless
     ></iframe>
-    <main>
+    <main class="contact-form">
       <h2>Let's Talk</h2>
       <div>
-        <form class="contact-form">
-          <div>
-            <label></label>
-            <input
-              class="name-input"
+        <form id="contact-form">
+          <div class="form-group">
+            <div class="first-name">
+             <label for="name">First Name</label>
+             <input
+               id="name"
+              name="first name"
               type="text"
-              placeholder="Enter your name"
+              required
+             />
+            </div>
+            <div class="last-name">
+              <label for="name">Last Name</label>
+              <input
+              id="name"
+              name="last name"
+              type="text"
               required
             />
+            </div>
           </div>
-          <div>
-            <label></label>
-            <input placeholder="Enter your email" type="email" class="email-input"  required />
+          <div class="email">
+            <label for="email">Email</label>
+            <input  type="email" id="email" name="email" required />
           </div>
-          <div>
-            <label></label>
-            <input placeholder="Enter your email" type="email" class="email-input"  required />
+          <div class="subject">
+            <label for="subject">Subject</label>
+            <input  type="subject" id="subject" name="subject" required />
           </div>
-          <div>
-            <label></label>
-            <input placeholder="Enter your email" type="email" class="email-input"  required />
-          </div>
+         
           <div>
            
-            <label></label>
+            <label for="message">Message</label>
             <textarea
               type="text"
-              class="message-input"
+              id="message"
               
-              placeholder="Enter your message"
+             name="message"
             ></textarea>
           </div>
-          <div>
-            <a class="btn" href="mailto:Jracciato@yahoo.com">
-              <span><i class="fas fa-leaf"></i></span>
-              <span class="btn-text">Contact the Guild</span>
+          <div id="btn">
+            <a class="btn" href="mailto:tomiwaafolayan69@gmail.com">
+             Send Me A Message
             </a>
           </div>
         </form>

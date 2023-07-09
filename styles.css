@@ -279,12 +279,12 @@ footer{
 }
 .footer-end p{
   font-weight: 500;
-  font-size: larger;
+  font-size: 1rem;
   font-weight: bold;
   padding-bottom: 10px;
 }
 .footer-end a{
-  font-size: 1.3rem; 
+  font-size: 1.2rem; 
 }
 .call{
  margin: 0 50px;
@@ -522,3 +522,85 @@ p{
 
 
  /* skillset end*/
+ /* Contact */
+ .contact-form{
+  background-color: #41644A;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+ }
+ .contact-form h2{
+  text-align: center;
+  padding-top: 100px ;
+  color: #fff;
+  
+ }
+ #contact-form{
+  margin: 80px auto;
+  padding: 80px 40px;
+  height: 120%;
+  width: 50%;
+  display: block;
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4)
+
+}
+ label{
+ font: 600 0.8rem 'roboto', sans-serif;
+ margin: 40px;
+}
+ input{
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  text-overflow: ellipsis;
+  width: 90%;
+  margin: 40px;
+}
+ textarea{
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  text-overflow: ellipsis;
+  width: 90%;
+  margin: 60px 0 0 40px;
+}
+ input:hover{
+  border-bottom-color: rgb(113, 158, 107);
+}
+textarea:hover,
+textarea:focus {
+  border-bottom-color:  rgb(113, 158, 107);
+}
+.form-group{
+  display: flex;
+}
+.first-name input{
+  width: 80%;
+}
+.last-name input{
+  width: 80%;
+}
+ .btn{
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 10%;
+  padding: 0.4rem;
+  font-weight: bold;
+  font-family:  Arial, sans-serif;
+  font-size: small;
+ 
+
+}
+#btn{
+  margin-top:  13%;
+  margin-left: 40%;
+  margin-right: 30%;
+  
+}
+.btn:hover{
+  background-color:  rgb(113, 158, 107);
+  color: #fff;
+  transform-style: inherit;
+}
