@@ -1,3 +1,5 @@
+//CONTACT FORM JS
+
 document.getElementById("contact-form").addEventListener("submit", function(event) { 
   event.preventDefault(); //prevent the form from submitting
   //get form values
