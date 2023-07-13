@@ -844,22 +844,18 @@ a.cv{
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
-  margin-bottom: 20px;
   width: 100%;
   box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
 }
 .resume-box h4{
   color: #918b8b;
-  font-size: 1.1rem;
 }
 .details{
  width: 100%;
- margin-bottom: 20px;
 }
 .details p{
-  font: 0.9rem/1.3 'poppins', sans-serif;
+  font: 0.8rem/1.3 'poppins', sans-serif;
   text-align: left;
-  
   color: #000;
   letter-spacing: 1.5px;
  }
@@ -867,11 +863,9 @@ a.cv{
 .description{
  width: 100%;
  text-align: justify;
- margin-top: 20px;
-
 }
 .description p{
-  font: 1.2rem/1.2  'Eczar', serif;
+  font: 0.8rem/1.2  'Eczar', serif;
   text-align: left;
   word-spacing: 2px;
   color: #000;

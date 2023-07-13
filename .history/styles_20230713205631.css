@@ -844,7 +844,6 @@ a.cv{
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
-  margin-bottom: 20px;
   width: 100%;
   box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
 }
@@ -868,7 +867,7 @@ a.cv{
  width: 100%;
  text-align: justify;
  margin-top: 20px;
-
+ margin-bottom: 20px;
 }
 .description p{
   font: 1.2rem/1.2  'Eczar', serif;

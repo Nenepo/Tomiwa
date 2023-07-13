@@ -236,7 +236,68 @@ nav{
   height: 100%;
  }
 /* main ends*/
+/* FOoter begins */
+footer{
+  display: flex;
+  padding: 2rem;
+  background-color: white;
 
+}
+
+.footer-end{
+  display: inline-flex;
+  margin-left: 27rem;
+  padding: 0 1.3rem;
+  margin-top: 25px;
+}
+.footer-end p{
+  font-weight: 500;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.footer-end a{
+  font-size: 1.2rem; 
+}
+.call{
+ margin: 0 50px;
+ text-align: center;
+}
+.call p{
+  margin-bottom: 5px;
+}
+.write {
+  margin: 0 20px;
+  text-align: center;
+}
+.write p{
+  margin-bottom: 5px;
+}
+.follow {
+  margin: 0 15px;
+}
+.follow p{
+  margin-bottom: 5px;
+  text-align: center;
+}
+.follow ol{
+  display: flex;
+}
+.follow a{
+ margin: 0 10px;
+ color: black;
+}
+.copyright{
+  margin-top: 30px;
+  font-size: larger;
+}
+.footer-frame{
+  width: 100%;
+margin-top: 350px;
+
+}
+
+/* Footer ends*/
 
 /* Resume page begins*/
 .container-resume{
@@ -787,214 +848,8 @@ margin-left: -20px;
 .section-about{
 height: 100%;
 } 
-  /* main ends */
-/* Resume page begins*/
-.container-resume{
-  background-color: #41644A;
-  width: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.footer-frame2{
-  width: 100%;
- height: 20%;
-}
-.resume{
-  text-align: center;
-  margin-top: 7rem;
-  color: #fff;
-}
-.experience{
-  display: flex;
-  padding: 2rem;
-  justify-content: left;
-  color: #fff;
-}
-.cv{
- /* margin-left: 30rem; */
-} 
-a.cv{
-  text-decoration: none;
-  background-color: #fff;
-  color: #000;
-  font: bold 0.9rem 'Roboto', sans-serif;
-  cursor: pointer;
-  border-radius: 25px;
-  padding: 0.6rem 0.6rem;
- }
- a.cv:hover{
-  color: #fff;
-  background-color: rgb(113, 158, 107);
- }
- .resume-box{
-  margin: auto;
-  padding: 1rem;
- 
- }
- .resume-box h3{
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin-top: 4px;
-  margin-left: 0.5px;
-  margin-bottom: 5px;
-}
-/* first resume box begins*/
-.resume-box1{
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem;
-  margin-bottom: 20px;
-  width: 100%;
-  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
-}
-.resume-box h4{
-  color: #918b8b;
-  font-size: 1.1rem;
-}
-.details{
- width: 100%;
- margin-bottom: 20px;
-}
-.details p{
-  font: 0.9rem/1.3 'poppins', sans-serif;
-  text-align: left;
   
-  color: #000;
-  letter-spacing: 1.5px;
- }
-
-.description{
- width: 100%;
- text-align: justify;
- margin-top: 20px;
-
-}
-.description p{
-  font: 1.2rem/1.2  'Eczar', serif;
-  text-align: left;
-  word-spacing: 2px;
-  color: #000;
-  letter-spacing: 1.5px;
- }
-
-/* first resume box end*/
-/* Second resume box begins */
-
-.resume-box2{
-  background-color: #fff;
-  display: flex;
-  margin-top: 50px;
-  padding: 3rem;
-  width: 100%;
-  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
-  
-}
-
-/* second box ends */
-.resume-box7{
-  background-color: #fff;
-  display: flex;
-  margin-top: 50px;
-  padding: 3rem;
-  width: 100%;
-  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
-  
-}
-.resume-box3{
-  background-color: #fff;
-  display: flex;
-  margin-top: 50px;
-  padding: 3rem;
-  width: 100%;
-  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
-  
-}
-.resume-box4{
-  background-color: #fff;
-  display: flex;
-  margin-top: 50px;
-  padding: 3rem;
-  width: 100%;
-  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
-  
-}
-.resume-box5{
-  background-color: #fff;
-  display: flex;
-  margin-top: 50px;
-  padding: 3rem;
-  width: 100%;
-  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
-  
-}
-.resume-box6{
-  background-color: #fff;
-  display: flex;
-  margin-top: 50px;
-  padding: 3rem;
-  width: 100%;
-  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
-  
-}
-p{
-  font-family: 'Proza Libre', sans-serif;}
- /* Resume page ends*/ 
- /* education */
- .education{
-  margin-top: 40px;
-  display: flex;
-  padding: 2rem;
-  justify-content: center;
-  color: #fff;
- }
- .education-box{
-  margin-left: 19rem;
-  margin-right: 18rem;
-  display: flex;
-  padding: 2em;
-  background-color: #fff;
-  margin-top: 30px;
-
-
-  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
- }
- .education-details{
- margin-left: 12rem;
- 
- }
- /* education ends */
-
- /* skillset */
- .professional-skill h3{
-  margin-top: 40px;
-  display: flex;
-  padding: 2rem;
-  justify-content: center;
-  color: #fff;
- }
-.skills ul{
-  margin-left: 19rem;
-  margin-right: 18rem;
-  display: flex;
-  padding: 2em;
-  background-color: #fff;
-  margin-top: 30px;
-  flex-wrap: wrap;
-  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
-}
-.skills li{
-  margin-left: 30px;
- 
- 
-}
-
-
-
-
-
- /* skillset end*/
-    /*contact begins  */
+    
    }
    #contact-form{
     margin: 80px auto;
