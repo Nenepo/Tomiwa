@@ -747,43 +747,34 @@ height: 100%;
   margin-top: 7rem;
   color: #fff;
 }
- .experience{
+.experience{
   display: flex;
   padding: 2rem;
-  justify-content: left;
+  margin: auto;
   color: #fff;
-  margin-top: 40px;
- 
 }
-.experience h3{
-  margin-top: auto ;
-  margin-bottom: auto;
-  /* margin-right: -5px; */
-
+.experience-text{
+  display: flex;
+  justify-content: left;
 }
-
 .cv{
   display: flex;
-  
+  padding: 2rem;
   
 } 
 a.cv{
   text-decoration: none;
   background-color: #fff;
   color: #000;
-  font: bold 1.3rem 'Roboto', sans-serif;
+  font: bold 0.9rem 'Roboto', sans-serif;
   cursor: pointer;
   border-radius: 25px;
-  margin-top: auto ;
-  margin-bottom: auto;
-  margin-left: 30px;
- 
-  
+  padding: 0.6rem 0.6rem;
  }
  a.cv:hover{
   color: #fff;
   background-color: rgb(113, 158, 107);
- } 
+ }
  .resume-box{
   margin: auto;
   padding: 1rem;

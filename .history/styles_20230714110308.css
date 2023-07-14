@@ -752,33 +752,28 @@ height: 100%;
   padding: 2rem;
   justify-content: left;
   color: #fff;
-  margin-top: 40px;
- 
 }
-.experience h3{
-  margin-top: auto ;
-  margin-bottom: auto;
-  /* margin-right: -5px; */
-
+.experience-text{
+  display: flex;
+  justify-content: start;
+  margin: auto ;
 }
-
+.cv-btn{
+  margin-right: -50px;
+}
 .cv{
   display: flex;
-  
-  
+  padding: 2rem;
+ 
 } 
 a.cv{
   text-decoration: none;
   background-color: #fff;
   color: #000;
-  font: bold 1.3rem 'Roboto', sans-serif;
+  font: bold 0.9rem 'Roboto', sans-serif;
   cursor: pointer;
   border-radius: 25px;
-  margin-top: auto ;
-  margin-bottom: auto;
-  margin-left: 30px;
- 
-  
+  padding: 0.6rem 0.6rem;
  }
  a.cv:hover{
   color: #fff;

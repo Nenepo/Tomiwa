@@ -764,7 +764,7 @@ height: 100%;
 
 .cv{
   display: flex;
-  
+  tex
   
 } 
 a.cv{
@@ -774,10 +774,7 @@ a.cv{
   font: bold 1.3rem 'Roboto', sans-serif;
   cursor: pointer;
   border-radius: 25px;
-  margin-top: auto ;
-  margin-bottom: auto;
-  margin-left: 30px;
- 
+  margin: auto;
   
  }
  a.cv:hover{

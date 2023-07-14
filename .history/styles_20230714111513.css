@@ -753,18 +753,14 @@ height: 100%;
   justify-content: left;
   color: #fff;
   margin-top: 40px;
- 
+  justify-content: ;
 }
 .experience h3{
-  margin-top: auto ;
-  margin-bottom: auto;
-  /* margin-right: -5px; */
-
+  margin: auto;
 }
 
 .cv{
   display: flex;
-  
   
 } 
 a.cv{
@@ -774,10 +770,7 @@ a.cv{
   font: bold 1.3rem 'Roboto', sans-serif;
   cursor: pointer;
   border-radius: 25px;
-  margin-top: auto ;
-  margin-bottom: auto;
-  margin-left: 30px;
- 
+  margin: auto;
   
  }
  a.cv:hover{

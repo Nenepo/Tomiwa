@@ -776,8 +776,8 @@ a.cv{
   border-radius: 25px;
   margin-top: auto ;
   margin-bottom: auto;
-  margin-left: 30px;
- 
+  margin-left: 20px;
+  margin-right: 0px;
   
  }
  a.cv:hover{
