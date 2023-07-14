@@ -830,19 +830,24 @@ p{
   margin-top: 40px;
   display: flex;
   padding: 2rem;
+  justify-content: center;
   color: #fff;
  }
  .education-box{
+  margin-left: 19rem;
+  margin-right: 18rem;
   display: flex;
-  flex-direction: column;
   padding: 2em;
   background-color: #fff;
   margin-top: 30px;
-  margin: auto;
-  
+
+
   box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
  }
-
+ .education-details{
+ margin-left: 12rem;
+ 
+ }
  /* education ends */
 
  /* skillset */
