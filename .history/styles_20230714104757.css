@@ -754,9 +754,7 @@ height: 100%;
   color: #fff;
 }
 .cv{
-  display: flex;
-  padding: 2rem;
-  
+ /* margin-left: 30rem; */
 } 
 a.cv{
   text-decoration: none;

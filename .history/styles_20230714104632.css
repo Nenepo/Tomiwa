@@ -754,9 +754,7 @@ height: 100%;
   color: #fff;
 }
 .cv{
-  display: flex;
-  padding: 2rem;
-  
+ /* margin-left: 30rem; */
 } 
 a.cv{
   text-decoration: none;
@@ -861,13 +859,18 @@ p{
   justify-content: center;
   color: #fff;
  }
+ .skills{
+  margin: auto;
+  
+ }
 .skills ul{
- margin: auto;
-  display: block;
-  padding: 1rem;
+  margin-left: 19rem;
+  margin-right: 18rem;
+  display: flex;
+  padding: 2em;
   background-color: #fff;
   margin-top: 30px;
-  font-size: 1.3rem;
+  flex-wrap: wrap;
   box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
 }
 .skills li{

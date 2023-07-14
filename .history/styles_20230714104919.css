@@ -756,7 +756,8 @@ height: 100%;
 .cv{
   display: flex;
   padding: 2rem;
-  
+  justify-content: right;
+  color: #fff;
 } 
 a.cv{
   text-decoration: none;
