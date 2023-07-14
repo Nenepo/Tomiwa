@@ -664,7 +664,7 @@ padding: 0;
 .buttons{
 margin-bottom: 20px;
 position: relative;
-bottom: 380px;
+bottom: 420px;
 width: 100%;
 display: flex;
 cursor: pointer;
@@ -895,36 +895,37 @@ p{
 
  /* skillset end*/
     /*contact begins  */
-   }
+   
    #contact-form{
     margin: 80px auto;
-    padding: 80px 40px;
     height: 120%;
-    width: 50%;
+    width: 95%;
     display: block;
     background-color: #fff;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.4)
   
   }
    label{
-   font: 600 0.8rem 'roboto', sans-serif;
-   margin: 40px;
+   font: 600 0.9rem 'roboto', sans-serif;
+   margin-left: -1px;
   }
    input{
     border: none;
     border-bottom: 2px solid black;
     outline: none;
     text-overflow: ellipsis;
-    width: 90%;
-    margin: 40px;
+    width: 100%;
+    margin-left: -1px;
+  
   }
    textarea{
     border: none;
     border-bottom: 2px solid black;
     outline: none;
     text-overflow: ellipsis;
-    width: 90%;
+    width: 100%;
     margin: 60px 0 0 40px;
+    margin-left: -1px;
   }
    input:hover{
     border-bottom-color: rgb(113, 158, 107);
@@ -934,19 +935,19 @@ p{
     border-bottom-color:  rgb(113, 158, 107);
   }
   .form-group{
-    display: flex;
+    display: block;
   }
   .first-name input{
-    width: 80%;
+    width: 100%;
+    
   }
   .last-name input{
-    width: 80%;
+    width: 100%;
   }
    .btn{
     color: #000;
     text-decoration: none;
     border: 1px solid #000;
-    padding: 0.4rem;
     font-weight: bold;
     font-family:  Arial, sans-serif;
     font-size: small;
@@ -954,10 +955,11 @@ p{
   
   }
   #btn{
-    margin-top:  13%;
-    margin-left: 40%;
-    margin-right: 30%;
     
+    margin-left: 25%;
+    margin-right: 10%;
+
+    margin-top:  20%;
   }
   .btn:hover{
     background-color:  rgb(113, 158, 107);
@@ -966,35 +968,31 @@ p{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
    /*contact form ends  */
-footer{
-width: 100%;
-  padding: 2rem;
-  background-color: white;
 
-}
-.footer-frame{
-
-  margin-top: 1350px;
-  
-}
 /* FOoter begins */
-footer{
+ footer{
   display: flex;
   padding: 2rem;
-  flex-direction: column;
+  width: 100%;
   background-color: white;
- 
+  flex-direction: column-reverse;
 }
-
+.footer{
+  margin-top: 1800px;
+}
 .footer-end{
-  display: inline-flex;
-  margin-left: 27rem;
-  padding: 0 1.3rem;
-  margin-top: 25px;
+  display: block;
+  margin-left: -1px;
+
+  /* margin:auto; */
+}
+.call-write{
+  display: flex;
+  margin-left: -50px;
 }
 .footer-end p{
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 10px;
 }
@@ -1002,42 +1000,41 @@ footer{
   font-size: 1.2rem; 
 }
 .call{
- margin: 0 50px;
+ /* margin: 0 50px; */
  text-align: center;
 }
 .call p{
   margin-bottom: 5px;
 }
 .write {
-  margin: 0 20px;
+  /* margin: 0 20px; */
   text-align: center;
 }
 .write p{
   margin-bottom: 5px;
 }
 .follow {
-  margin: 0 15px;
+  margin-top: 40px;
+  margin-left: 1px;
+ 
 }
 .follow p{
   margin-bottom: 5px;
-  text-align: center;
+  text-align: left;
 }
 .follow ol{
   display: flex;
 }
 .follow a{
- margin: 0 10px;
+ margin-right: 30px;
  color: black;
 }
 .copyright{
-  margin-top: 30px;
+  /* margin-top: 30px; */
   font-size: larger;
 }
-.footer-frame{
-  width: 100%;
-margin-top: 350px;
+
 
 }
-
 /* Footer ends*/
 
