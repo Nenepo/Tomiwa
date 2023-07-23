@@ -664,14 +664,14 @@ padding: 0;
 .buttons{
 margin-bottom: 20px;
 position: relative;
-bottom: 420px;
+bottom: 400px;
 width: 100%;
 display: flex;
 cursor: pointer;
 
 }
 .btn2{
- margin-left: -20px;
+ margin-left: -30px;
   
   }
 .buttons a{
@@ -679,14 +679,16 @@ text-decoration: none;
 color: #000;
 font: bold 1rem 'Roboto', sans-serif;
 cursor: pointer;
-border: 1px solid #fff;
+background-color: #fff;
+border:  1px solid #fff;
 border-radius: 25px;
-padding: 0.7rem 1rem;
+padding: 0.8rem 1rem;
 
 }
 .buttons a:hover{
-color: #000;
-background-color:#fff;
+color: #fff;
+background-color:#41644A;
+border:  1px solid #41644A;
 }
 .box2{
   text-align: justify;
