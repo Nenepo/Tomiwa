@@ -4,9 +4,9 @@ function toggleMenu(){
   const menu = document.getElementById('menu');
   menu.classList.toggle('active');
   if (menu.classList.contains("active")){
-    hamburger.innerHTML = `<div class= "bar" style= "transform: rotate(45deg) translate(5px,6px); background-color: #fff"></div>
+    hamburger.innerHTML = `<div class= "bar" style= "transform: rotate(45deg) translate(5px,6px); background-color: #000"></div>
     <div class= "bar"  style= "opacity: 0; "></div>
-    <div class= "bar"  style= "transform: rotate(-45deg) translate(5px,-6px); background-color: #fff"></div>
+    <div class= "bar"  style= "transform: rotate(-45deg) translate(5px,-6px); background-color: #000;  "></div>
     `;}
     else{
       //change the X icon back to the hamburger  when the menu is inactive

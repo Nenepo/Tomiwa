@@ -267,17 +267,7 @@ p{
   justify-content: center;
   color: #fff;
  }
- .education-box{
-  margin-left: 19rem;
-  margin-right: 18rem;
-  display: flex;
-  padding: 2em;
-  background-color: #fff;
-  margin-top: 30px;
 
-
-  box-shadow: 2px 2px  rgba(0, 0, 0, 0.5);
- }
  .education-details{
  margin-left: 12rem;
  
@@ -401,14 +391,23 @@ footer{
   display: flex;
   padding: 2rem;
   background-color: white;
- 
+  justify-content: space-between;
+  margin: 0 80px;
 }
+.footer-1{
+ margin-top: 300px;
+ background-color: #fff;
 
+
+}
+.call-write{
+  display: flex;
+}
 .footer-end{
-  display: inline-flex;
-  margin-left: 27rem;
-  padding: 0 1.3rem;
+  display: flex;
+  justify-content: flex-end;
   margin-top: 25px;
+ 
 }
 .footer-end p{
   font-weight: 500;
@@ -440,97 +439,64 @@ footer{
   margin-bottom: 5px;
   text-align: center;
 }
-.follow ol{
-  display: flex;
-}
-.follow a{
- margin: 0 10px;
- color: black;
-}
+
+
+ .follow a{
+  margin: 0 15px;
+  font-size: 1rem;
+
+  
+ }
+
+ 
 .copyright{
   margin-top: 30px;
   font-size: larger;
 }
-.footer-frame{
+/* .footer-frame{
   width: 100%;
 margin-top: 350px;
 
-}
+} */
 
 /* Footer ends*/
 /* Media query for mobile devices */
 @media screen and (max-width: 992px) {
  body{
-  overflow-x: visible;
+ 
   padding: 0;
   margin: 0;
+  
+  scroll-behavior: smooth;
  }
 
 
-  /* Hamburger styles Begins*/
-  
-  .menu-icon {
-  
-    position: absolute;
-    right: 0;
-    align-items: end;
-   
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-    z-index: 9999999999999;
-   
-  }
-  
-  .menu-icon span {
-    display: block;
-    width: 40px;
-    height: 5px;
-    background-color: #000;
-    margin-right: 20px;
-    margin-top: 20px;
-    transition: transform 0.3s ease-in-out;
-  
-  }
-  .nav{
-    display: none;
-  }
-   .hyphen{
- font-size: 3rem;
-   }
-   .tag-line
-   {
-    margin-top: 20px;
-   }
-  /* Header styles ends*/
+ 
 /* About */
  .container-aboutme{
   display: flex;
   flex-direction: column-reverse;
-
   width: 100%;
-  height: 110%;
+  height: 150%;
 }
 
 .container1{
 width: 100%;
-height: 50%;
+height: 90%;
 background-color: #41644A;
 }
 .container2{
 width: 100%;
-height: 40%;
+height: 50%;
 background-color: #fff;
 }
 .box{
-  /* display: flex;
-  flex-direction: column; */
+
   display: block;
   width: 100%;
   position: relative;
   margin: 0;
-  bottom: 630;
-  
- 
+  bottom: 700;
 
 }
 .box1{
@@ -598,27 +564,30 @@ padding: 0;
 
 
 .buttons{
-margin-bottom: 20px;
+
 position: relative;
-bottom: 400px;
+bottom: 350px;
 width: 100%;
 display: flex;
 cursor: pointer;
-
+justify-content: space-between;
+}
+.btn1{
+ margin-left: 50px;
 }
 .btn2{
- margin-left: -30px;
+ margin-right: 50px;
   
   }
 .buttons a{
 text-decoration: none;
 color: #000;
-font: bold 1rem 'Roboto', sans-serif;
+font: bold 0.8rem 'Roboto', sans-serif;
 cursor: pointer;
 background-color: #fff;
 border:  1px solid #fff;
 border-radius: 25px;
-padding: 0.8rem 1rem;
+padding: 0.6rem 2rem;
 
 }
 .buttons a:hover{
@@ -910,13 +879,14 @@ p{
 /* FOoter begins */
  footer{
   display: flex;
-  padding: 2rem;
+  /* padding: 1rem; */
   width: 100%;
+  margin: 0 20px;
   background-color: white;
   flex-direction: column-reverse;
 }
-.footer{
-  margin-top: 1800px;
+.footer-1{
+  margin-top: 1400px;
 }
 .footer-end{
   display: block;
