@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+  z-index: 2;
+  height: 70px;
+}
+.intro{
+  display: flex;
+  padding-left: 100px;
+}
+.name{
+  margin: 10px 5px;
+  font-size: 1.8rem;
+}
+.hyphen{
+  font-size: 3rem;
+  margin: 0 5px;
+}
+.tag-line{
+  margin: 20px 10px;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+.nav{
+  display: flex;
+  padding-right: 100px;
+
+}
+.nav a{
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 5px   20px;
+  color: #000;
+}
+.nav a:hover , 
+.nav a.active{
+ color: #41644A;
+ padding: 0 5px 2px 0;
+
+ border-bottom: 2px solid #0f0a0a ;
+}
+.hamburger{
+  margin-left: 20px;
+  cursor: pointer;
+  display: none;
+}
+.hamburger div{
+  width: 30px;
+  height: 2px;
+  margin: 6px 0;
+  background: #000;
+}
+@media only screen and (max-width: 900px) {
+ 
+  .hamburger{
+    display: block;
+  }
+  .header{
+    /* position: relative; */
+    display: flex;
+    padding: 0 20px;
+    z-index: 2;
+    width: 100%;
+  } 
+  .intro{
+   padding: 0;
+  }
+  .nav{
+    margin: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    height: 80vh;
+    top: 0;
+    /* margin-top: -70px; */
+    right: -250%;
+    width: 55%;
+    padding: 30px;
+    transition: 0.3s slide-down;
+    opacity: 0;
+   
+  }
+  .nav.active{
+    opacity: 0.9;
+    right: 0;
+    background-color:#41644A;
+
+  }
+  @keyframes slide-down {
+    0%{
+      right: -250%;
+      opacity: 0;
+    }
+    50%{
+      right: 0%;
+      opacity: 0.1;
+    }
+    75%{
+      right: 20px;
+      opacity: 0.5;
+    }
+    100%{
+      right: 70px;
+      opacity: 1;
+    }
+  }
+  .nav  a{
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    margin: 5px 0;
+    padding: 10px 100px;
+    transition: 0.2s;
+  }
+  .nav  a:hover{
+    color: #000;
+    border-bottom: 2px solid #fff ;
+  }
+}
