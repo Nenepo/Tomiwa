@@ -19,13 +19,16 @@
 .name{
   margin: 10px 5px;
   font-size: 1.8rem;
+  font-weight: bold;
 }
 .hyphen{
   font-size: 3rem;
-  margin: 0 5px;
+  margin-left: -20px;
+  margin-top: 15px;
 }
 .tag-line{
-  margin: 20px 10px;
+ 
+  margin-top: 40px;
   font-size: 0.9rem;
   font-weight: lighter;
 }
@@ -66,11 +69,13 @@
     display: block;
   }
   .header{
-    /* position: relative; */
+    position: fixed;
     display: flex;
-    padding: 0 20px;
+    padding: 50px;
     z-index: 2;
+    background-color: #fff;
     width: 100%;
+    margin-top: -1px ;
   } 
   .intro{
    padding: 0;
@@ -84,14 +89,14 @@
     justify-content: space-evenly;
     gap: 20px;
     height: 80vh;
-    top: 40rem;
-    /* margin-top: 100px; */
+    /* top: 40; */
+    margin-top: 65px;
     right: -250%;
     width: 55%;
     padding: 30px;
     transition: 0.3s slide-down;
     opacity: 0;
-  
+    border-radius: 0 0 0 400px;
     
   }
   .nav.active{
@@ -99,7 +104,7 @@
     opacity: 0.9;
     right: 0;
     height: 80vh;
-    top: 00px;
+    /* top: 00px; */
     background-color:#41644A;
    
     

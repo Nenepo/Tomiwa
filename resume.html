@@ -53,15 +53,38 @@
       Tomiwa Afolayan - Product Manager | Strategic Planning | User Experience
     </title>
     <link href="styles.css" rel="stylesheet" />
+    <link href="header/header.css" rel="stylesheet" />
   </head>
   <body>
-    <iframe
-      class="header-frame"
-      src="header.html"
-      frameborder="0"
-      scrolling="no"
-      seamless
-    ></iframe>
+    <header class="header">
+      <!-- Header content goes here -->
+      <!-- HAMBURGER -->
+      
+      <div class="intro">
+        <h3 class="name">Tomiwa </h3>
+        <p class="hyphen">/</p>
+        <h6 class="tag-line">PROJECT MANAGER</h6>
+      </div>
+       
+      <nav>
+        <div class="nav" id="menu">
+          <a href="aboutme.html" target="_blank">ABOUT ME</a>
+
+          <a href="resume.html" target="_blank">RESUME</a>
+  
+          <a href="projects.html" target="_blank">PROJECTS</a>
+  
+          <a href="contact.html" target="_blank">CONTACT</a>
+        </div>
+       
+
+        <div class="hamburger" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </header>
     <main>
       <section class="container-resume">
         <h2 class="resume">Resume</h2>
@@ -358,5 +381,6 @@
          </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

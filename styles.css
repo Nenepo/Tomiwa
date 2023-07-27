@@ -496,7 +496,7 @@ background-color: #fff;
   width: 100%;
   position: relative;
   margin: 0;
-  bottom: 700;
+  bottom: 800;
 
 }
 .box1{
@@ -805,7 +805,7 @@ p{
    
    #contact-form{
     margin: 80px auto;
-    height: 120%;
+    height: 140%;
     width: 95%;
     display: block;
     background-color: #fff;
@@ -854,7 +854,7 @@ p{
    .btn{
     color: #000;
     text-decoration: none;
-    border: 1px solid #000;
+    border: 2px solid #000;
     font-weight: bold;
     font-family:  Arial, sans-serif;
     font-size: small;
@@ -862,16 +862,15 @@ p{
   
   }
   #btn{
-    
-    margin-left: 25%;
+    margin-left: 30%;
     margin-right: 10%;
-
     margin-top:  20%;
   }
   .btn:hover{
     background-color:  rgb(113, 158, 107);
     color: #fff;
     transform-style: inherit;
+    border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
    /*contact form ends  */

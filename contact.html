@@ -54,15 +54,38 @@
       Tomiwa Afolayan - Product Manager | Strategic Planning | User Experience
     </title>
     <link href="styles.css" rel="stylesheet" />
+    <link href="header/header.css" rel="stylesheet" />
   </head>
   <body>
-    <iframe
-      class="header-frame"
-      src="header.html"
-      frameborder="0"
-      scrolling="no"
-      seamless
-    ></iframe>
+    <header class="header">
+      <!-- Header content goes here -->
+      <!-- HAMBURGER -->
+      
+      <div class="intro">
+        <h3 class="name">Tomiwa </h3>
+        <p class="hyphen">/</p>
+        <h6 class="tag-line">PROJECT MANAGER</h6>
+      </div>
+       
+      <nav>
+        <div class="nav" id="menu">
+          <a href="aboutme.html" target="_blank">ABOUT ME</a>
+
+          <a href="resume.html" target="_blank">RESUME</a>
+  
+          <a href="projects.html" target="_blank">PROJECTS</a>
+  
+          <a href="contact.html" target="_blank">CONTACT</a>
+        </div>
+       
+
+        <div class="hamburger" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </header>
     <main class="contact-form">
       <h2>Let's Talk</h2>
       <div>
@@ -132,12 +155,7 @@
       </span>
         <div class="follow">
           <p >Follow</p>
-          <ol>
-           <li><a href="https://twitter.com/irregularsam"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a></li>
-           <li><a href="https://www.instagram.com/tomiwa__afolayan/"><i class="fa-brands fa-linkedin-in" style="color: #000000;"></i></a></li>
-           <li><a href="https://www.linkedin.com/in/tomiwa-afolayan-053242218"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a></li>
-          
-          </ol>
+          <a href="https://twitter.com/irregularsam"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a><a href="https://www.instagram.com/tomiwa__afolayan/"><i class="fa-brands fa-linkedin-in" style="color: #000000;"></i></a><a href="https://www.linkedin.com/in/tomiwa-afolayan-053242218"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
        
          </div>
       </div>
