@@ -64,81 +64,15 @@ hr{
 }
 
 /* Header style begins  */
-.header{
- 
-  text-align: center;
-  background-color: #fff ;
-  width: 100%;
-  display: flex;
-  padding: 1.6rem;
-  
- 
- 
-}
+
 .header-frame{
   width: 100%;
   height: 20%;
+  z-index: 4;
   position: fixed;
-  z-index: 9999;
- 
-}
-.logo{
-  margin-right: 0.3rem;
+  background-color: #fff;
 }
 
-.site-header{
-  display: flex;
-  width: 30%;
- 
-}
-.tag-line{
- 
-  margin-left: 0.3rem;
-  margin-top: 0.5rem;
-}
-.hyphen{
- font-size: 1.6rem;
-}
-
-
-
-/* navbar style begins*/
-nav{
-  margin-top: 100px;
-}
-.nav ol {
-  display: inline-flex;
-  justify-content: end;
-  margin-left: 18.8rem;
-  width: 70%;
- 
-  }
-  .list-item a{
-   text-decoration: none;
-   color: #333232;
-   font: bold 0.9rem 'roboto', sans-serif;
-   cursor: pointer;
-  }
-  .list-item a:hover{
-    color: rgb(113, 158, 107);
-    
-   }
- 
- ol {
-    list-style: none;
-   
-  }
-  .list-item{
-     display: flex;
-     list-style: none;
-     margin: auto 1.3rem;
-     
-    
-  }
-  
-/*navbar style ends*/
-
-/* Header Style Ends */
 /* main begins */
   .container-aboutme{
      display: flex;
@@ -192,13 +126,15 @@ nav{
  }
  .socials{
   background-color: #fff;
+  padding:20px 30px;
+  margin-top: 20px;
  }
 
- .socials ol{
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1.3rem;
-  font-size: 1.3rem; 
+ .socials a{
+  margin: 0 40px;
+  font-size: 1.3rem;
+
+  
  }
                                                         
  .box2{
