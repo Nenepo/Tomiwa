@@ -67,6 +67,8 @@
  
   .hamburger{
     display: block;
+    margin-left: 70px;
+  
   }
   .header{
     position: fixed;
@@ -79,6 +81,8 @@
   } 
   .intro{
    padding: 0;
+   width: 30%;
+   margin-left: -50px;
   }
   .nav{
     margin: 0;
@@ -131,10 +135,10 @@
     display: block;
     text-align: center;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 5px 0;
     padding: 10px 100px;
-    transition: 0.2s;
+    /* transition: 0.2s; */
   }
   .nav  a:hover{
     color: #000;
